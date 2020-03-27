@@ -1,15 +1,16 @@
 from Spiller import Spiller, _sorter_onskeliste, fjern_tomme
 from Kort import MyntSeierKort, Smie, Landsby
-from Spilleske import Spilleske
+from Spilleske import Spilleske, lag_kort
 from pickle import dump, load
 import logging
+from spillrom import Spillrom
+from config import TYPER
 
-antall_tester = 2
+antall_tester = 5
 antall_runder = 2
 antall_spillere = 4
-typer = ["Sm", "Gu", "Pr", "So","Ko","La"]
 atyper = ["Sm", "Gu","So","Ko","La"]
-
+SPILLROM = Spillrom()
 
 def test_trekk_hand():
     kortene = []
@@ -18,7 +19,7 @@ def test_trekk_hand():
         kortene.append(MyntSeierKort(1,0))
     for i in range(3):
         kortene.append(MyntSeierKort(0, 1))
-    spiller = Spiller(kortene, spilleske, typer)
+    spiller = Spiller(kortene, spilleske, TYPER)
     spiller.stokk()
     spiller.trekk_hand()
     assert len(spiller.hand)==5
@@ -30,7 +31,7 @@ def test_tell_penger():
         kortene.append(MyntSeierKort(1, 0))
     for i in range(1):
         kortene.append(MyntSeierKort(0, 1))
-    spiller = Spiller(kortene, spilleske, typer)
+    spiller = Spiller(kortene, spilleske, TYPER)
     spiller.stokk()
     spiller.trekk_hand()
     assert spiller.tell_penger() == 4
@@ -48,7 +49,7 @@ def test_bruk_kort():
         kortene.append(Smie())
     for i in range(13):
         kortene.append(MyntSeierKort(0, 1))
-    spiller = Spiller(kortene, spilleske, typer)
+    spiller = Spiller(kortene, spilleske, TYPER)
     spiller.trekk_hand()
     assert len(spiller.hand) == 5
     spiller.bruk_befaling()
@@ -74,7 +75,7 @@ def test_kjop():
         kortene.append(MyntSeierKort(2, 0))
     for i in range(3):
         kortene.append(MyntSeierKort(0, 1))
-    spiller = Spiller(kortene, spilleske, typer)
+    spiller = Spiller(kortene, spilleske, TYPER)
     spiller.trekk_hand()
     spiller.bruk_befaling()
 #    assert spiller.finn_kjop() == "Sm", spiller.finn_kjop()
@@ -122,7 +123,7 @@ def test_finn_andel():
         kortene.append(MyntSeierKort(1, 0))
     for i in range(3):
         kortene.append(MyntSeierKort(0, 1))
-    spiller = Spiller(kortene, spilleske,typer)
+    spiller = Spiller(kortene, spilleske, TYPER)
     assert spiller.finn_andel(MyntSeierKort(1, 0)) == 0.7
 
 def test_fjern():
@@ -152,23 +153,19 @@ def alle_tester():
 def lag_spillere(spilleske):
     spillere = []
     for telling in range(antall_spillere):
-        kortene = []
-        for i in range(7):
-            kortene.append(MyntSeierKort(1, 0))
-        for i in range(3):
-            kortene.append(MyntSeierKort(0, 1))
-        spillere.append(Spiller(kortene, spilleske, typer))
+        spillere.append(Spiller(lag_kort(), spilleske, TYPER))
     return spillere
 
 def overste_general():
-    spilleske = Spilleske(typer)
+    #spilleske = Spilleske(typer)
+    spilleske = None
     spillere = lag_spillere(spilleske)
-    kjor_cup(spillere)
     mutasjon = kjor_cup(spillere)
     finalister = kjor_cup_utenm(mutasjon, spilleske)
+    SPILLROM.gjor_klar(finalister)
     vinner = spille_mothverandre(finalister)
     finalister.remove(vinner)
-    print_ut(finalister, vinner, spilleske)
+    print_ut(finalister, vinner)
     test_spiller(vinner)
 
 
@@ -176,7 +173,7 @@ def overste_general():
 
 def spille_mothverandre(spillere):
     runde = 0
-    spilleske = Spilleske(typer)
+    spilleske = Spilleske(TYPER)
     for spilleren in spillere:
         spilleren.spilleske = spilleske
     while spilleske.skjekk("Pr") == True and runde<100:
@@ -194,11 +191,11 @@ def spille_mothverandre(spillere):
             hoyest = spill
     return hoyest
 
-def print_ut(finalister, vinner, spilleske):
+def print_ut(finalister, vinner):
     for en_spiller in finalister:
-        print_losning(en_spiller.prioriteringer, en_spiller, spilleske)
+        print_losning(en_spiller.prioriteringer, en_spiller)
     print("vinneren:")
-    print_losning(vinner.prioriteringer, vinner, spilleske)
+    print_losning(vinner.prioriteringer, vinner)
 
 
 
@@ -213,6 +210,7 @@ def kjor_cup(spillere):
         for spiller in spillere:
             cup_kamp.append(spiller)
             if len(cup_kamp)==4:
+                SPILLROM.gjor_klar(cup_kamp)
                 vinner = spille_mothverandre(cup_kamp)
                 nye_spillere = nye_spillere + vinner.mutasjon()
                 cup_kamp = []
@@ -222,6 +220,7 @@ def kjor_cup(spillere):
 
 def test_spiller(vinneren):
     seire = 0
+    logging.info("Begynner testing")
     for o in range(antall_tester):
         seire += test_mtilfeldig(vinneren)
     print("vant: ", seire, "/", antall_tester)
@@ -235,6 +234,7 @@ def kjor_cup_utenm(spillere, spilleske):
         for spiller in spillere:
             cup_kamp.append(spiller)
             if len(cup_kamp)==4:
+                SPILLROM.gjor_klar(cup_kamp)
                 nye_spillere.append(spille_mothverandre(cup_kamp))
                 cup_kamp = []
         kjor_cup_utenm(nye_spillere, spilleske)
@@ -253,7 +253,8 @@ def finn_antall():
 
 
 
-def print_losning(losning, spiller, spilleske):
+def print_losning(losning, spiller):
+    spilleske = Spilleske(TYPER)
     antall = spiller.tell_korttyper()
     print("     ", "   Grunntall", "             Smie", "           Kobber", "             Solv", "               Gull", "               Landsby", "          Provins")
     for type in losning:
@@ -264,14 +265,11 @@ def print_losning(losning, spiller, spilleske):
 
 
 def test_mtilfeldig(spilleren):
+    logging.info("Begynner testing gruppe")
     kampen = [spilleren]
     for telling in range(3):
-        kortene = []
-        for i in range(7):
-            kortene.append(MyntSeierKort(1, 0))
-        for i in range(3):
-            kortene.append(MyntSeierKort(0, 1))
-        kampen.append(Spiller(kortene, Spilleske(typer), typer))
+        kampen.append(Spiller(lag_kort(), Spilleske(TYPER), TYPER))
+    SPILLROM.gjor_klar(kampen)
     vinneren = spille_mothverandre(kampen)
     if vinneren == spilleren:
         return 1
@@ -296,7 +294,7 @@ def test_mtilfeldig(spilleren):
 #         kortene.append(MyntSeierKort(0, 1))
 #     spillere.append(Spiller(kortene, spilleske, typer))
 open("min_logg","w").close()
-logging.basicConfig(filename="min_logg",level=logging.INFO)
+logging.basicConfig(filename="min_logg",level=logging.DEBUG)
 overste_general()
 
 

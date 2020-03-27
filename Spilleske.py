@@ -43,3 +43,10 @@ class Spilleske:
         #     return MyntSeierKort(0,1)
 
 
+def lag_kort():
+    kortene = []
+    for i in range(7):
+        kortene.append(MyntSeierKort(1, 0))
+    for i in range(3):
+        kortene.append(MyntSeierKort(0, 1))
+    return kortene

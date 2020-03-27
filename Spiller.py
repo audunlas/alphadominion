@@ -27,6 +27,14 @@ class Spiller:
         self.kastebunke = []
         self.stokk()
 
+    def klart_for_nytt_spill(self, kortene, spilleske):
+        self.kastebunke = []
+        self.hand = []
+        self.bruktekort = []
+        self.trekkbunke = kortene
+        self.spilleske = spilleske
+
+
     def lage_barn(self):
         nye_barn = [self]
         for telling in range(3):
