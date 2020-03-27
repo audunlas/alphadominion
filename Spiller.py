@@ -13,6 +13,7 @@ class Spiller:
         self.typer = typer
         self.prioriteringer = self.lag_prioriteringer()
         self.forsterunde = None
+        self.kort = {}
 #        self.onskeliste = ["Pr", "Gu","Sm", "So", "Ko"]
         #self.onskeliste = ["Pr", "Gu", "So", "Ko"]
         #self.onskeliste = ["Pr", "Sm", "So", "Ko"]
@@ -33,6 +34,12 @@ class Spiller:
         self.bruktekort = []
         self.trekkbunke = kortene
         self.spilleske = spilleske
+        for type in self.typer:
+            self.kort[type] = 0
+        self.oppdater_antall("Ko", 7)
+
+    def oppdater_antall(self, kort, antallet):
+        self.kort[kort] += antallet
 
 
     def lage_barn(self):
@@ -88,14 +95,10 @@ class Spiller:
         return onskeliste
 
     def finn_andel(self, kort) -> float:
-        kortene = self.alle_kort()
-        antall = 0
-        for kortet in kortene:
-            if kortet == kort:
-                if kortet == "Pr":
-                    return self.spilleske.igjen["Pr"]
-                antall += 1
-        return antall/len(kortene)
+        if kort == "Pr":
+            return self.spilleske.igjen["Pr"]
+        antall = self.kort[self.spilleske.kort_til_kode(kort)]
+        return antall/len(self.alle_kort())
 
 
     def alle_kort(self) -> List[Kort]:
@@ -232,6 +235,7 @@ class Spiller:
             logging.debug("Foer: " + str(self.spilleske.igjen))
             self.spilleske.trekk_fra(kjop)
             logging.debug("Etter: " + str(self.spilleske.igjen))
+            self.oppdater_antall(kjop, 1)
 
 
 

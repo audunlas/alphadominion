@@ -42,6 +42,21 @@ class Spilleske:
         # elif onske == "He":
         #     return MyntSeierKort(0,1)
 
+    def kort_til_kode(self, kort):
+        onske = kort
+        if onske == Smie():
+            return "Sm"
+        elif onske == MyntSeierKort(2, 0):
+            return "So"
+        elif onske == MyntSeierKort(3, 0):
+            return "Gu"
+        elif onske == MyntSeierKort(0, 6):
+            return "Pr"
+        elif onske == MyntSeierKort(1, 0):
+            return "Ko"
+        elif onske == Landsby():
+            return "La"
+
 
 def lag_kort():
     kortene = []
