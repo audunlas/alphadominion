@@ -6,7 +6,7 @@ import logging
 from spillrom import Spillrom
 from config import TYPER
 
-antall_tester = 5
+antall_tester = 30
 antall_runder = 2
 antall_spillere = 4
 atyper = ["Sm", "Gu","So","Ko","La"]

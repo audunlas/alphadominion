@@ -2,6 +2,7 @@ from typing import List, Dict
 from random import shuffle, random, randint, choice
 from Kort import Kort, Smie, MyntSeierKort, Landsby, Befalingskort
 import logging
+from config import DEBUG_MODE
 
 class Spiller:
     def __init__(self, kortene, spilleske, typer):
@@ -20,11 +21,13 @@ class Spiller:
 
 
     def _resirkuler_kastebunke(self):
-        assert self.trekkbunke == []
-        assert not None in self.trekkbunke
-        assert not None in self.kastebunke
+        if DEBUG_MODE:
+            assert self.trekkbunke == []
+            assert not None in self.trekkbunke
+            assert not None in self.kastebunke
         self.trekkbunke = self.kastebunke
-        assert not None in self.trekkbunke
+        if DEBUG_MODE:
+            assert not None in self.trekkbunke
         self.kastebunke = []
         self.stokk()
 
@@ -103,7 +106,8 @@ class Spiller:
 
     def alle_kort(self) -> List[Kort]:
         ny_kastebunke = self.kastebunke + self.hand + self.trekkbunke
-        assert not None in ny_kastebunke
+        if DEBUG_MODE:
+            assert not None in ny_kastebunke
         return ny_kastebunke
 
 
@@ -113,15 +117,18 @@ class Spiller:
 
     def trekk_hand(self):
         antall_kort = 5
-        assert self.hand == []
+        if DEBUG_MODE:
+            assert self.hand == []
         for nummer in range(antall_kort):
             if len(self.trekkbunke) == 0:
                 self._resirkuler_kastebunke()
                 if len(self.trekkbunke) == 0:
                     return
-            assert not None in self.hand
+            if DEBUG_MODE:
+                assert not None in self.hand
             self.hand.append(self.trekkbunke.pop(0))
-            assert not None in self.hand
+            if DEBUG_MODE:
+                assert not None in self.hand
 
     def trekk_kort(self, nye_kort):
         for nummer in range(nye_kort):
@@ -139,7 +146,8 @@ class Spiller:
         return self.penger
 
     def sorter_hand(self) -> List[Kort]:
-        assert not None in self.hand
+        if DEBUG_MODE:
+            assert not None in self.hand
         ny_hand = []
         for kort in self.hand:
             fortsett = True
@@ -160,11 +168,13 @@ class Spiller:
                     else:
                         ny_hand.append(kort)
                         fortsett = False
-        assert not None in ny_hand
+        if DEBUG_MODE:
+            assert not None in ny_hand
         return ny_hand
 
     def bruk_befaling(self):
-        assert self.bruktekort==[]
+        if DEBUG_MODE:
+            assert self.bruktekort==[]
         befalinger = 1
         kjop = 1
         hendelse = None
@@ -177,7 +187,8 @@ class Spiller:
                 kjop += hendelse.kjop
                 self.trekk_kort(nye_kort)
         self.kastebunke += self.bruktekort
-        assert not None in self.kastebunke
+        if DEBUG_MODE:
+            assert not None in self.kastebunke
         self.bruktekort = []
 
     def bruk_en_befaling(self): #-> Hendelse/False
@@ -193,7 +204,8 @@ class Spiller:
 
     def kast_hand(self):
         for kort in self.hand:
-            assert not kort is None
+            if DEBUG_MODE:
+                assert not kort is None
             self.kastebunke.append(kort)
         self.hand = []
 
@@ -241,14 +253,17 @@ class Spiller:
 
 
     def utfor_runde(self):
-        assert not None in self.hand
-        assert not None in self.trekkbunke
+        if DEBUG_MODE:
+            assert not None in self.hand
+            assert not None in self.trekkbunke
         self.trekk_hand()
-        assert not None in self.hand
+        if DEBUG_MODE:
+            assert not None in self.hand
         self.bruk_befaling()
         self.kjop()
         self.kast_hand()
-        assert not None in self.trekkbunke
+        if DEBUG_MODE:
+            assert not None in self.trekkbunke
 
     def tell_korttyper(self) -> int:
         antall = {}
