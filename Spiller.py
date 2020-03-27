@@ -79,12 +79,12 @@ class Spiller:
         Score = {}
         for kort in self.prioriteringer:
             Score[kort] = self.prioriteringer[kort][0]
-            Score[kort] += self.prioriteringer[kort][1]*self.finn_andel(Smie())
-            Score[kort] += self.prioriteringer[kort][2]*self.finn_andel(MyntSeierKort(1,0))
-            Score[kort] += self.prioriteringer[kort][3]*self.finn_andel(MyntSeierKort(2,0))
-            Score[kort] += self.prioriteringer[kort][4]*self.finn_andel(MyntSeierKort(3,0))
-            Score[kort] += self.prioriteringer[kort][5]*self.finn_andel(Landsby())
-            Score[kort] += self.prioriteringer[kort][6]*self.finn_andel(MyntSeierKort(0,6))
+            Score[kort] += self.prioriteringer[kort][1]*self.finn_andel("Sm")
+            Score[kort] += self.prioriteringer[kort][2]*self.finn_andel("Ko")
+            Score[kort] += self.prioriteringer[kort][3]*self.finn_andel("So")
+            Score[kort] += self.prioriteringer[kort][4]*self.finn_andel("Gu")
+            Score[kort] += self.prioriteringer[kort][5]*self.finn_andel("La")
+            Score[kort] += self.prioriteringer[kort][6]*self.finn_andel("Pr")
         # Score["Sm"] = 4 - self.finn_andel(Smie())*30 + self.finn_andel(Landsby()) * 35
         # Score["Gu"] = 6 + self.finn_andel(Smie())*3
         # Score["Pr"] = 8 + 10-self.finn_andel(MyntSeierKort(0,6))
@@ -100,7 +100,7 @@ class Spiller:
     def finn_andel(self, kort) -> float:
         if kort == "Pr":
             return self.spilleske.igjen["Pr"]
-        antall = self.kort[self.spilleske.kort_til_kode(kort)]
+        antall = self.kort[kort]
         return antall/len(self.alle_kort())
 
 
