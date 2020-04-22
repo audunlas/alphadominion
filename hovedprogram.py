@@ -5,12 +5,22 @@ from pickle import dump, load
 import logging
 from spillrom import Spillrom
 from config import TYPER
+from time import time
 
-antall_tester = 30
-antall_runder = 2
-antall_spillere = 4
+tid_for=time()
+
+antall_tester = 5
+antall_runder = 4
+antall_spillere = 16
 atyper = ["Sm", "Gu","So","Ko","La"]
 SPILLROM = Spillrom()
+
+def lag_filnavn(type, antall, navn):
+    return "resultater/"+str(type)+str(antall)+navn+ ".csv"
+
+def lag_filnavnmrunde(type, antall, runde, navn):
+    return "resultater/" + str(type) + str(runde)+"_"+ str(antall) +navn+ ".csv"
+
 
 def test_trekk_hand():
     kortene = []
@@ -64,6 +74,9 @@ def test_bruk_kort():
     spiller.kast_hand()
     assert len(spiller.trekkbunke) == 3, spiller.trekkbunke
     assert len(spiller.kastebunke) == 17, spiller.kastebunke
+
+def test_finn_score():
+
 
 
 def test_kjop():
@@ -154,6 +167,8 @@ def lag_spillere(spilleske):
     spillere = []
     for telling in range(antall_spillere):
         spillere.append(Spiller(lag_kort(), spilleske, TYPER))
+    for ab in range(len(spillere)):
+        spillere[ab].navn = "s"+str(ab)
     return spillere
 
 def overste_general():
@@ -192,18 +207,21 @@ def spille_mothverandre(spillere):
     return hoyest
 
 def print_ut(finalister, vinner):
-    for en_spiller in finalister:
-        print_losning(en_spiller.prioriteringer, en_spiller)
+    print(len(finalister))
+    for ab in range(len(finalister)):
+        print_losning(finalister[ab], lag_filnavn("finalist", ab, finalister[ab].navn))
     print("vinneren:")
-    print_losning(vinner.prioriteringer, vinner)
+    print_losning(vinner, lag_filnavn("vinneren", "", vinner.navn))
 
 
 
 def kjor_cup(spillere):
     logging.info("antall spillere"+str(len(spillere)))
+    antall = 1
     cup_kamp = []
     nye_spillere = spillere
     for a in range(antall_runder):
+        antall = 1
         logging.info("starter runde")
         spillere = nye_spillere
         nye_spillere = []
@@ -212,7 +230,9 @@ def kjor_cup(spillere):
             if len(cup_kamp)==4:
                 SPILLROM.gjor_klar(cup_kamp)
                 vinner = spille_mothverandre(cup_kamp)
-                nye_spillere = nye_spillere + vinner.mutasjon()
+                print_losning(vinner, lag_filnavnmrunde("mutasjon", antall, a, vinner.navn))
+                antall += 1
+                nye_spillere += vinner.mutasjon()
                 cup_kamp = []
 
     return nye_spillere
@@ -228,6 +248,7 @@ def test_spiller(vinneren):
 def kjor_cup_utenm(spillere, spilleske):
     logging.info("antall spillere: "+ str(len(spillere)))
     assert not spillere == []
+    antall = 1
     cup_kamp = []
     nye_spillere = []
     if len(spillere) > 4:
@@ -235,11 +256,14 @@ def kjor_cup_utenm(spillere, spilleske):
             cup_kamp.append(spiller)
             if len(cup_kamp)==4:
                 SPILLROM.gjor_klar(cup_kamp)
-                nye_spillere.append(spille_mothverandre(cup_kamp))
+                vinneren = spille_mothverandre(cup_kamp)
+                nye_spillere.append(vinneren)
+                print_losning(vinneren, lag_filnavn("cup", antall, vinneren.navn))
+                antall += 1
                 cup_kamp = []
         kjor_cup_utenm(nye_spillere, spilleske)
 
-    return spillere
+    return nye_spillere
 
 
 
@@ -253,15 +277,22 @@ def finn_antall():
 
 
 
-def print_losning(losning, spiller):
+def print_losning(spiller, filnavn):
+    losning = spiller.prioriteringer
+    fil = open(filnavn, "w")
     spilleske = Spilleske(TYPER)
     antall = spiller.tell_korttyper()
-    print("     ", "   Grunntall", "             Smie", "           Kobber", "             Solv", "               Gull", "               Landsby", "          Provins")
+    scoreforste = spiller.finn_forste_score()
+    scoresiste = spiller.finn_siste_score()
+
+    rad1 = ["typer", "Grunntall", "Smie", "Kobber", "Solv", "Gull", "Landsby", "Provins", "antall", "forste score", "siste score"]
+    fil.write(";".join(rad1)+"\n")
     for type in losning:
         mine_ting = [type, losning[type][0], losning[type][1], losning[type][2], losning[type][3],
-                     losning[type][4], losning[type][5], losning[type][6], antall.get(spilleske.kode_til_kort(type))]
+                     losning[type][4], losning[type][5], losning[type][6], antall.get(spilleske.kode_til_kort(type)), scoreforste[type], scoresiste[type]]
         ny_liste = [str(ordet) for ordet in mine_ting]
-        print("\t".join(ny_liste))
+        fil.write(";".join(ny_liste)+ "\n")
+
 
 
 def test_mtilfeldig(spilleren):
@@ -276,6 +307,13 @@ def test_mtilfeldig(spilleren):
     else:
         return 0
 
+def les_inn(fil):
+    pass
+
+def selvalgt_spiller(fil):
+    spilleske = None
+    spiller = Spiller(lag_kort(), spilleske, TYPER)
+    spiller.prioriteringer = les_inn(fil)
 
 
 
@@ -299,4 +337,6 @@ overste_general()
 
 
 
+kjoretid = time() - tid_for
 
+print("tid(sek): ", int(kjoretid))

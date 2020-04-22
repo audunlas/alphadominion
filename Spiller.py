@@ -3,6 +3,7 @@ from random import shuffle, random, randint, choice
 from Kort import Kort, Smie, MyntSeierKort, Landsby, Befalingskort
 import logging
 from config import DEBUG_MODE
+from Spilleske import lag_kort
 
 class Spiller:
     def __init__(self, kortene, spilleske, typer):
@@ -15,6 +16,7 @@ class Spiller:
         self.prioriteringer = self.lag_prioriteringer()
         self.forsterunde = None
         self.kort = {}
+        self.navn = None
 #        self.onskeliste = ["Pr", "Gu","Sm", "So", "Ko"]
         #self.onskeliste = ["Pr", "Gu", "So", "Ko"]
         #self.onskeliste = ["Pr", "Sm", "So", "Ko"]
@@ -30,6 +32,14 @@ class Spiller:
             assert not None in self.trekkbunke
         self.kastebunke = []
         self.stokk()
+
+    def finn_forste_score(self):
+        kortene = lag_kort()
+        return self.finn_scorel(kortene)
+
+
+    def finn_siste_score(self):
+        return self.finn_scorel(self.alle_kort())
 
     def klart_for_nytt_spill(self, kortene, spilleske):
         self.kastebunke = []
@@ -54,6 +64,11 @@ class Spiller:
             for i in range(3):
                 kortene.append(MyntSeierKort(0, 1))
             nye_barn.append(Spiller(kortene, self.spilleske, self.typer))
+        for ab in range(len(nye_barn)):
+            if ab == 0:
+                nye_barn[ab].navn = self.navn
+            else:
+                nye_barn[ab].navn = self.navn + str(ab)
         return nye_barn
 
     def mutasjon(self):
@@ -74,17 +89,42 @@ class Spiller:
             poeng += kortet.poeng
         return poeng
 
-
-    def finn_onskeliste(self) -> List[str]:
+    def finn_score(self):
         Score = {}
         for kort in self.prioriteringer:
             Score[kort] = self.prioriteringer[kort][0]
-            Score[kort] += self.prioriteringer[kort][1]*self.finn_andel("Sm")
-            Score[kort] += self.prioriteringer[kort][2]*self.finn_andel("Ko")
-            Score[kort] += self.prioriteringer[kort][3]*self.finn_andel("So")
-            Score[kort] += self.prioriteringer[kort][4]*self.finn_andel("Gu")
-            Score[kort] += self.prioriteringer[kort][5]*self.finn_andel("La")
-            Score[kort] += self.prioriteringer[kort][6]*self.finn_andel("Pr")
+            Score[kort] += self.prioriteringer[kort][1] * self.finn_andel("Sm")
+            Score[kort] += self.prioriteringer[kort][2] * self.finn_andel("Ko")
+            Score[kort] += self.prioriteringer[kort][3] * self.finn_andel("So")
+            Score[kort] += self.prioriteringer[kort][4] * self.finn_andel("Gu")
+            Score[kort] += self.prioriteringer[kort][5] * self.finn_andel("La")
+            Score[kort] += self.prioriteringer[kort][6] * self.finn_andel("Pr")
+
+        return Score
+
+    def finn_scorel(self, kortete):
+        kortene = [self.spilleske.kort_til_kode(kort) for kort in kortete]
+        Score = {}
+        for kort in self.prioriteringer:
+            Score[kort] = self.prioriteringer[kort][0]
+            Score[kort] += self.prioriteringer[kort][1] * self.finn_andelu("Sm", kortene)
+            Score[kort] += self.prioriteringer[kort][2] * self.finn_andelu("Ko", kortene)
+            Score[kort] += self.prioriteringer[kort][3] * self.finn_andelu("So", kortene)
+            Score[kort] += self.prioriteringer[kort][4] * self.finn_andelu("Gu", kortene)
+            Score[kort] += self.prioriteringer[kort][5] * self.finn_andelu("La", kortene)
+            Score[kort] += self.prioriteringer[kort][6] * self.finn_andelu("Pr", kortene)
+
+        return Score
+
+    def finn_andelu(self, kort, kortene):
+        if kort == "Pr":
+            return self.spilleske.igjen["Pr"]
+        antall = kortene.count(kort)
+        return antall / len(self.alle_kort())
+
+
+    def finn_onskeliste(self) -> List[str]:
+        Score = self.finn_score()
         # Score["Sm"] = 4 - self.finn_andel(Smie())*30 + self.finn_andel(Landsby()) * 35
         # Score["Gu"] = 6 + self.finn_andel(Smie())*3
         # Score["Pr"] = 8 + 10-self.finn_andel(MyntSeierKort(0,6))
