@@ -9,9 +9,10 @@ from time import time
 
 tid_for=time()
 
-antall_tester = 5
-antall_runder = 4
+antall_tester = 2
+antall_runder = 2
 antall_spillere = 16
+
 atyper = ["Sm", "Gu","So","Ko","La"]
 SPILLROM = Spillrom()
 
@@ -76,6 +77,16 @@ def test_bruk_kort():
     assert len(spiller.kastebunke) == 17, spiller.kastebunke
 
 def test_finn_score():
+    typer = ["Ko", "So"]
+    spilleske = Spilleske(typer)
+    spiller = Spiller(lag_kort(), spilleske, typer)
+    spiller.prioriteringer = {'Ko': [1, 6, 3], "So": [0, 3, 6]}
+    spiller.trekkbunke = [MyntSeierKort(1, 0), MyntSeierKort(1, 0), MyntSeierKort(2, 0)]
+    spiller.kort["Ko"] = 2
+    spiller.kort["So"] = 1
+    svar = spiller.finn_score()
+    assert svar["Ko"] == 6
+    assert svar["So"] == 4
 
 
 
@@ -333,9 +344,9 @@ def selvalgt_spiller(fil):
 #     spillere.append(Spiller(kortene, spilleske, typer))
 open("min_logg","w").close()
 logging.basicConfig(filename="min_logg",level=logging.DEBUG)
-overste_general()
+#overste_general()
 
-
+test_finn_score()
 
 kjoretid = time() - tid_for
 

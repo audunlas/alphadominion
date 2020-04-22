@@ -14,6 +14,7 @@ class Spiller:
         self.spilleske = spilleske
         self.typer = typer
         self.prioriteringer = self.lag_prioriteringer()
+        assert len(self.prioriteringer) == len(self.typer)
         self.forsterunde = None
         self.kort = {}
         self.navn = None
@@ -93,13 +94,8 @@ class Spiller:
         Score = {}
         for kort in self.prioriteringer:
             Score[kort] = self.prioriteringer[kort][0]
-            Score[kort] += self.prioriteringer[kort][1] * self.finn_andel("Sm")
-            Score[kort] += self.prioriteringer[kort][2] * self.finn_andel("Ko")
-            Score[kort] += self.prioriteringer[kort][3] * self.finn_andel("So")
-            Score[kort] += self.prioriteringer[kort][4] * self.finn_andel("Gu")
-            Score[kort] += self.prioriteringer[kort][5] * self.finn_andel("La")
-            Score[kort] += self.prioriteringer[kort][6] * self.finn_andel("Pr")
-
+            for ab in range(len(self.typer)):
+                Score[kort] += self.prioriteringer[kort][ab+1] * self.finn_andel(self.typer[ab])
         return Score
 
     def finn_scorel(self, kortete):
@@ -107,13 +103,8 @@ class Spiller:
         Score = {}
         for kort in self.prioriteringer:
             Score[kort] = self.prioriteringer[kort][0]
-            Score[kort] += self.prioriteringer[kort][1] * self.finn_andelu("Sm", kortene)
-            Score[kort] += self.prioriteringer[kort][2] * self.finn_andelu("Ko", kortene)
-            Score[kort] += self.prioriteringer[kort][3] * self.finn_andelu("So", kortene)
-            Score[kort] += self.prioriteringer[kort][4] * self.finn_andelu("Gu", kortene)
-            Score[kort] += self.prioriteringer[kort][5] * self.finn_andelu("La", kortene)
-            Score[kort] += self.prioriteringer[kort][6] * self.finn_andelu("Pr", kortene)
-
+            for ab in range(len(self.typer)):
+                Score[kort] += self.prioriteringer[kort][ab + 1] * self.finn_andelu(self.typer[ab], kortene)
         return Score
 
     def finn_andelu(self, kort, kortene):
