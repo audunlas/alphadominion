@@ -10,8 +10,8 @@ from time import time
 tid_for=time()
 
 antall_tester = 10
-antall_runder = 2
-antall_spillere = 16
+antall_runder = 10
+antall_spillere = 1024
 manuelle_spillere = ["manuellmynter.csv", "manuell1.csv", "manuellsmiland.csv"]
 manuelle = ["manuelleSpillere/"+manuell for manuell in manuelle_spillere]
 
@@ -281,7 +281,6 @@ def print_ut(finalister, vinner):
 
 def kjor_cup(spillere):
     logging.info("antall spillere"+str(len(spillere)))
-    antall = 1
     cup_kamp = []
     nye_spillere = spillere
     for a in range(antall_runder):
@@ -325,7 +324,7 @@ def kjor_cup_utenm(spillere, spilleske):
                 cup_kamp = []
         kjor_cup_utenm(nye_spillere, spilleske)
 
-    return nye_spillere
+    return spillere
 
 
 
@@ -424,7 +423,7 @@ def selvalgt_spiller(filnavn):
 #         kortene.append(MyntSeierKort(0, 1))
 #     spillere.append(Spiller(kortene, spilleske, typer))
 open("min_logg","w").close()
-logging.basicConfig(filename="min_logg",level=logging.DEBUG)
+logging.basicConfig(filename="min_logg",level=0)
 overste_general(manuelle)
 
 #test_finn_score()
