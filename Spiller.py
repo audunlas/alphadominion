@@ -47,6 +47,7 @@ class Spiller:
         self.hand = []
         self.bruktekort = []
         self.trekkbunke = kortene
+        self.stokk()
         self.spilleske = spilleske
         for type in self.typer:
             self.kort[type] = 0
@@ -93,8 +94,10 @@ class Spiller:
     def finn_score(self):
         Score = {}
         for kort in self.prioriteringer:
+            assert type(self.prioriteringer[kort][0]) == float, (type(self.prioriteringer[kort][0]), self.prioriteringer[kort][0])
             Score[kort] = self.prioriteringer[kort][0]
             for ab in range(len(self.typer)):
+                #print(len(self.typer), len(self.prioriteringer[kort]), type(self.typer))
                 Score[kort] += self.prioriteringer[kort][ab+1] * self.finn_andel(self.typer[ab])
         return Score
 
@@ -104,14 +107,14 @@ class Spiller:
         for kort in self.prioriteringer:
             Score[kort] = self.prioriteringer[kort][0]
             for ab in range(len(self.typer)):
-                Score[kort] += self.prioriteringer[kort][ab + 1] * self.finn_andelu(self.typer[ab], kortene)
+                Score[kort] += self.prioriteringer[kort][ab+1] * self.finn_andelu(self.typer[ab], kortene)
         return Score
 
     def finn_andelu(self, kort, kortene):
         if kort == "Pr":
             return self.spilleske.igjen["Pr"]
         antall = kortene.count(kort)
-        return antall / len(self.alle_kort())
+        return antall / len(kortene)
 
 
     def finn_onskeliste(self) -> List[str]:
@@ -170,9 +173,9 @@ class Spiller:
             self.hand.append(self.trekkbunke.pop(0))
 
 
-    def tell_penger(self) -> int:
+    def tell_penger(self, hand) -> int:
         self.penger = 0
-        for kortet in self.hand:
+        for kortet in hand:
             self.penger += kortet.peng
         return self.penger
 
@@ -251,19 +254,19 @@ class Spiller:
 
     def finn_kjop(self): #->Kort/None
         for onske in self.finn_onskeliste():
-            if onske == "Sm" and self.tell_penger() >= 4:
+            if onske == "Sm" and self.tell_penger(self.hand) >= 4:
                 return onske
-            elif onske == "So" and self.tell_penger() >= 3:
+            elif onske == "So" and self.tell_penger(self.hand) >= 3:
                 return onske
-            elif onske == "Gu" and self.tell_penger() >= 6:
+            elif onske == "Gu" and self.tell_penger(self.hand) >= 6:
                 return onske
-            elif onske == "Pr" and self.tell_penger() >= 8:
+            elif onske == "Pr" and self.tell_penger(self.hand) >= 8:
                 return onske
             elif onske == "Ko":
                 return onske
-            elif onske == "La" and self.tell_penger() >= 3:
+            elif onske == "La" and self.tell_penger(self.hand) >= 3:
                 return onske
-            elif onske == "He" and self.tell_penger() >= 2:
+            elif onske == "He" and self.tell_penger(self.hand) >= 2:
                 return onske
         return None
 
@@ -272,13 +275,16 @@ class Spiller:
 
     def kjop(self):
         kjop = self.finn_kjop()
-        logging.debug("kjop" + str(kjop)+ "  penger:" + str(self.tell_penger()) + "  onskeliste:"+str(self.finn_onskeliste()))
+        logging.debug("kjop" + str(kjop)+ "  penger:" + str(self.tell_penger(self.hand)) + "  onskeliste:"+str(self.finn_onskeliste()))
         if not kjop is None:
             self.kastebunke.append(self.spilleske.kode_til_kort(kjop))
             logging.debug("Foer: " + str(self.spilleske.igjen))
             self.spilleske.trekk_fra(kjop)
             logging.debug("Etter: " + str(self.spilleske.igjen))
             self.oppdater_antall(kjop, 1)
+            #print (kjop)
+            return kjop
+        return "ingenting"
 
 
 
@@ -295,6 +301,29 @@ class Spiller:
         self.kast_hand()
         if DEBUG_MODE:
             assert not None in self.trekkbunke
+
+    def utfor_runde_medskriv(self):
+        self.trekk_hand()
+        if DEBUG_MODE:
+            assert not None in self.hand
+        self.bruk_befaling()
+        kjopet=[self.kjop()]
+        #print(self.hand)
+        if DEBUG_MODE:
+            assert self.spilleske.kort_til_kode(MyntSeierKort(1,0)) == "Ko"
+        handa = self.hand
+        hand = [self.spilleske.kort_til_kode(kortet) for kortet in self.hand]
+        alle_kort =[self.spilleske.kort_til_kode(kortet) for kortet in self.alle_kort()]
+        finn_kjop = self.finn_kjop()
+        if DEBUG_MODE:
+            assert not None in hand
+        self.kast_hand()
+        assert not None in hand
+        assert not None in alle_kort
+        assert not None in kjopet
+        assert not None in [str(self.tell_penger(handa))]
+        assert not None in [finn_kjop]
+        return kjopet,[str(self.tell_penger(handa))] ,["I"],hand, ["I"],alle_kort,["I"], [finn_kjop]
 
     def tell_korttyper(self) -> int:
         antall = {}

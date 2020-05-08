@@ -1,0 +1,2307 @@
+INFO:root:antall spillere16
+INFO:root:starter runde
+INFO:root:starter runde
+INFO:root:antall spillere: 16
+INFO:root:antall spillere: 4
+INFO:root:Begynner testing
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing gruppe
+INFO:root:Begynner testing med manuelle
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:7  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 48, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 48, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 48, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 5, 'Ko': 48, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 48, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 48, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 48, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 48, 'So': 35, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 48, 'So': 35, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 48, 'So': 35, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 4, 'Ko': 48, 'So': 35, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 48, 'So': 35, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 2, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 48, 'So': 34, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 48, 'So': 33, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 48, 'So': 33, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 33, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 33, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 33, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 32, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 32, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 31, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 31, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 28, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 28, 'La': 6, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 28, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 28, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 29, 'Gu': 28, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 29, 'Gu': 28, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:kjopLa  penger:4  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 27, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 27, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 26, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 26, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 26, 'Gu': 27, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 26, 'Gu': 27, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 26, 'Gu': 27, 'La': 4, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 26, 'Gu': 27, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 26, 'Gu': 27, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 25, 'Gu': 27, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 25, 'Gu': 27, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 25, 'Gu': 27, 'La': 4, 'Pr': 8}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 25, 'Gu': 27, 'La': 4, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 24, 'Gu': 27, 'La': 4, 'Pr': 8}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 24, 'Gu': 27, 'La': 4, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 24, 'Gu': 27, 'La': 3, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 24, 'Gu': 27, 'La': 3, 'Pr': 8}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 24, 'Gu': 27, 'La': 3, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 23, 'Gu': 27, 'La': 3, 'Pr': 8}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 23, 'Gu': 27, 'La': 3, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 22, 'Gu': 27, 'La': 3, 'Pr': 8}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 22, 'Gu': 27, 'La': 3, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 22, 'Gu': 27, 'La': 3, 'Pr': 7}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 22, 'Gu': 27, 'La': 3, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 22, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 22, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 22, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 21, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 21, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 20, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 20, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 19, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 19, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 19, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 19, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 19, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 15, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 15, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 12, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 12, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 10, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 10, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 10, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 9, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 9, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 9, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 9, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:11  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 7, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 7, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 24, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:11  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 24, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 24, 'La': 0, 'Pr': 1}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 24, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 5, 'Gu': 24, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 4, 'Gu': 24, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 4, 'Gu': 24, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 4, 'Gu': 24, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 50, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 2, 'Ko': 50, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 50, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 8, 'Pr': 9}
+DEBUG:root:kjopLa  penger:5  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 8, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopKo  penger:2  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 6, 'Pr': 9}
+DEBUG:root:kjopLa  penger:3  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 6, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 29, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 29, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 29, 'La': 5, 'Pr': 8}
+DEBUG:root:kjopLa  penger:5  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 29, 'La': 5, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 29, 'La': 4, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 29, 'La': 4, 'Pr': 8}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 29, 'La': 4, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 29, 'La': 4, 'Pr': 8}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 29, 'La': 4, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 29, 'La': 4, 'Pr': 8}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 29, 'La': 4, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 28, 'La': 4, 'Pr': 8}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 28, 'La': 4, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 28, 'La': 3, 'Pr': 7}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 28, 'La': 3, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 27, 'La': 3, 'Pr': 7}
+DEBUG:root:kjopLa  penger:4  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 27, 'La': 3, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:kjopLa  penger:7  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 27, 'La': 1, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopKo  penger:2  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 16, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 16, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 15, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 15, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 15, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 11, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 11, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:15  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 49, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 49, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 4, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 3, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 1, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 31, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 31, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 29, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 29, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 30, 'La': 1, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 30, 'La': 1, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 30, 'La': 1, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 30, 'La': 1, 'Pr': 10}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 30, 'La': 1, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopLa  penger:7  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 30, 'La': 0, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 30, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 30, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 30, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 30, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 30, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 30, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 30, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 30, 'La': 0, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 30, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 30, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 30, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 30, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 30, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 30, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 29, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 49, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 49, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 49, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 9, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 6, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:8  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 3, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 1, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 28, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopLa  penger:3  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 28, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 29, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 29, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 28, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:kjopLa  penger:4  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 28, 'La': 6, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 27, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 26, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 25, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopLa  penger:6  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 24, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 23, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopPr  penger:11  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 28, 'La': 4, 'Pr': 8}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 28, 'La': 4, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 22, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 28, 'La': 3, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 28, 'La': 3, 'Pr': 7}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 28, 'La': 3, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 27, 'La': 3, 'Pr': 7}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 27, 'La': 3, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 2, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 2, 'Pr': 6}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 2, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 18, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 18, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 27, 'La': 1, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 8, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 8, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:13  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 3}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 25, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 25, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 25, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 25, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 24, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 24, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 23, 'La': 0, 'Pr': 2}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 23, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopSo  penger:10  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 23, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 23, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 23, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 22, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 22, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 2, 'Gu': 22, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:16  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 2, 'Gu': 22, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 2, 'Gu': 22, 'La': 0, 'Pr': 1}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 2, 'Gu': 22, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 2, 'Gu': 22, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 1, 'Gu': 22, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 1, 'Gu': 22, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 1, 'Gu': 21, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 1, 'Gu': 21, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 1, 'Gu': 21, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 5, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:8  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 3, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 49, 'So': 34, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 49, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 48, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 48, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 2, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 48, 'So': 33, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 29, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 29, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopLa  penger:8  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 3, 'Pr': 9}
+DEBUG:root:kjopLa  penger:5  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 3, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopLa  penger:3  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 20, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 20, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 20, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 16, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 16, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:11  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 14, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 14, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:11  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopKo  penger:3  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 46, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 10, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 10, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 10, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 10, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 10, 'Gu': 27, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 5, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:8  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 3, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 2, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 29, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 29, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 27, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 27, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 30, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 30, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 30, 'La': 3, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 30, 'La': 3, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 30, 'La': 3, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 25, 'Gu': 30, 'La': 3, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 25, 'Gu': 30, 'La': 3, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 30, 'La': 3, 'Pr': 9}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 30, 'La': 3, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 30, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopLa  penger:7  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 30, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 23, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 23, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 30, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 29, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 29, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 20, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 20, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 16, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 16, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 13, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 12, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 11, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 10, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 10, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 9, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 9, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 9, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 9, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 8, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 8, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 8, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 28, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 28, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 24, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 24, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 5, 'Gu': 24, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 5, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 3, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 29, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 29, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 30, 'La': 2, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 2, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 2, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 1, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 1, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 1, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 27, 'Gu': 29, 'La': 1, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 27, 'Gu': 29, 'La': 1, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 29, 'La': 1, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 29, 'La': 1, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 25, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 25, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 25, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 23, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 23, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 20, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 20, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:kjopPr  penger:12  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 19, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 18, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 17, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 17, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 16, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 16, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 15, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 15, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 14, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 14, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 14, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 13, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 13, 'Gu': 29, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 13, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopPr  penger:12  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 13, 'Gu': 29, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 13, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 13, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 12, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 12, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 12, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 11, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 11, 'Gu': 29, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 11, 'Gu': 29, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 11, 'Gu': 29, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 10, 'Gu': 29, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 10, 'Gu': 29, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 10, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 10, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 10, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 9, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 9, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 8, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 8, 'Gu': 29, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 8, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 8, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 7, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 6, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 5, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 5, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 4, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 4, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 4, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopKo  penger:4  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 4, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 4, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:12  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 3, 'Gu': 26, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 38, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 48, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 6, 'Ko': 48, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 48, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 4, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 48, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 48, 'So': 34, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 48, 'So': 34, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 48, 'So': 34, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 48, 'So': 34, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 48, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 48, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 47, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 3, 'Ko': 47, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 47, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 32, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 32, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 31, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 31, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 31, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 31, 'Gu': 30, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 31, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 31, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 31, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 30, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 30, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 29, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 29, 'Gu': 30, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 29, 'Gu': 29, 'La': 4, 'Pr': 10}
+DEBUG:root:kjopLa  penger:4  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 29, 'Gu': 29, 'La': 4, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 29, 'Gu': 29, 'La': 3, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 29, 'Gu': 29, 'La': 3, 'Pr': 10}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 29, 'Gu': 29, 'La': 3, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 29, 'La': 3, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 29, 'La': 3, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 29, 'La': 3, 'Pr': 10}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 29, 'La': 3, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 28, 'La': 3, 'Pr': 10}
+DEBUG:root:kjopLa  penger:5  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 28, 'La': 3, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 28, 'La': 2, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 28, 'La': 2, 'Pr': 10}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 28, 'La': 2, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 2, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 28, 'La': 2, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 2, 'Pr': 10}
+DEBUG:root:kjopPr  penger:12  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 2, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopLa  penger:4  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 1, 'Pr': 8}
+DEBUG:root:kjopLa  penger:4  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 1, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 27, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 27, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 20, 'Gu': 27, 'La': 0, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 20, 'Gu': 27, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 20, 'Gu': 27, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 18, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 16, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 16, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 16, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:11  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopKo  penger:3  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 46, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 7, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 7, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 7, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 7, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopKo  penger:4  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 45, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 45, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:10  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 45, 'So': 6, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 45, 'So': 5, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 45, 'So': 5, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 45, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:11  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 45, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 45, 'So': 5, 'Gu': 25, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 4, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 50, 'So': 36, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 8, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 7, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 35, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:7  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSm  penger:6  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 34, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 33, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 30, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 29, 'La': 6, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 29, 'La': 6, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 32, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 31, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:kjopLa  penger:3  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 29, 'La': 5, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 29, 'La': 4, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 29, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 30, 'Gu': 29, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 29, 'Gu': 29, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 29, 'Gu': 29, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 4, 'Pr': 9}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 4, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 3, 'Pr': 9}
+DEBUG:root:kjopLa  penger:7  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 3, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 2, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 28, 'Gu': 29, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 27, 'Gu': 29, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 27, 'Gu': 29, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 29, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 29, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:kjopLa  penger:6  onskeliste:['Pr', 'La', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 28, 'La': 2, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 26, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 25, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 25, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 28, 'La': 1, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 24, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 23, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 50, 'So': 23, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 23, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 50, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 20, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:kjopPr  penger:11  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 16, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 15, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopKo  penger:4  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 14, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 26, 'La': 0, 'Pr': 0}
+DEBUG:root:Spilleske: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 40, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 10, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 39, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 10, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 38, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 50, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 9, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'So', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 9, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 8, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 8, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 37, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 7, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 7, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 6, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Pr', 'Gu', 'Sm', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 6, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 5, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 5, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 4, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 36, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 4, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 4, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 49, 'So': 35, 'Gu': 30, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 3, 'Ko': 49, 'So': 35, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 3, 'Ko': 49, 'So': 35, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 49, 'So': 35, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Spilleske: {'Sm': 2, 'Ko': 49, 'So': 35, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Sm', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 49, 'So': 35, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 2, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopSm  penger:5  onskeliste:['Sm', 'Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 2, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'La', 'Sm', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 10}
+DEBUG:root:Etter: {'Sm': 1, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:kjopSm  penger:4  onskeliste:['Sm', 'La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 1, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 34, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 33, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 33, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 9, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 9}
+DEBUG:root:kjopLa  penger:6  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 8, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopSo  penger:4  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 32, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 31, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 9}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:kjopKo  penger:2  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 49, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 30, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 29, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 29, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:kjopKo  penger:2  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 48, 'So': 28, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:kjopLa  penger:6  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 29, 'La': 7, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 29, 'La': 6, 'Pr': 8}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 29, 'La': 6, 'Pr': 8}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 28, 'Gu': 29, 'La': 6, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 29, 'La': 6, 'Pr': 8}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 27, 'Gu': 29, 'La': 6, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 29, 'La': 6, 'Pr': 8}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 29, 'La': 6, 'Pr': 8}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 29, 'La': 6, 'Pr': 7}
+DEBUG:root:kjopLa  penger:3  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 29, 'La': 6, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 29, 'La': 5, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 29, 'La': 5, 'Pr': 7}
+DEBUG:root:kjopSo  penger:7  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 26, 'Gu': 29, 'La': 5, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 29, 'La': 5, 'Pr': 7}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 25, 'Gu': 29, 'La': 5, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 29, 'La': 5, 'Pr': 7}
+DEBUG:root:kjopLa  penger:4  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 29, 'La': 5, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 29, 'La': 4, 'Pr': 7}
+DEBUG:root:kjopLa  penger:8  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 29, 'La': 4, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 29, 'La': 3, 'Pr': 7}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 29, 'La': 3, 'Pr': 7}
+DEBUG:root:kjopSo  penger:5  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 24, 'Gu': 29, 'La': 3, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 29, 'La': 3, 'Pr': 7}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'So', 'La', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 29, 'La': 3, 'Pr': 7}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 29, 'La': 3, 'Pr': 6}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 29, 'La': 3, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 3, 'Pr': 6}
+DEBUG:root:kjopLa  penger:5  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 3, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 2, 'Pr': 6}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 2, 'Pr': 6}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'La', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 23, 'Gu': 28, 'La': 2, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 2, 'Pr': 6}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'So', 'Gu', 'La', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 2, 'Pr': 6}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 2, 'Pr': 5}
+DEBUG:root:kjopLa  penger:3  onskeliste:['Pr', 'Gu', 'La', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 2, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 1, 'Pr': 5}
+DEBUG:root:kjopLa  penger:7  onskeliste:['La', 'Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 1, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 22, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:3  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 21, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 20, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 20, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:7  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 19, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopSo  penger:6  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 18, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 5}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopGu  penger:7  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 28, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:kjopPr  penger:10  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 4}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:8  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 17, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 16, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 15, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 14, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:4  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 14, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:10  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 13, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopSo  penger:6  onskeliste:['Pr', 'So', 'Gu', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 12, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 3}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:kjopPr  penger:9  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 2}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:3  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 11, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopGu  penger:6  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 27, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:5  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 10, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 47, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopKo  penger:5  onskeliste:['Pr', 'Gu', 'Ko', 'So']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 47, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Spilleske: {'Sm': 0, 'Ko': 46, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopSo  penger:9  onskeliste:['So', 'Pr', 'Ko', 'Gu']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 9, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:kjopPr  penger:8  onskeliste:['Pr', 'Gu', 'So', 'Ko']
+DEBUG:root:Foer: {'Sm': 0, 'Ko': 46, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 1}
+DEBUG:root:Etter: {'Sm': 0, 'Ko': 46, 'So': 8, 'Gu': 26, 'La': 0, 'Pr': 0}

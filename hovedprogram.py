@@ -9,15 +9,23 @@ from time import time
 
 tid_for=time()
 
-antall_tester = 2
+antall_tester = 10
 antall_runder = 2
 antall_spillere = 16
+manuelle_spillere = ["manuellmynter.csv", "manuell1.csv", "manuellsmiland.csv"]
+manuelle = ["manuelleSpillere/"+manuell for manuell in manuelle_spillere]
+
 
 atyper = ["Sm", "Gu","So","Ko","La"]
-SPILLROM = Spillrom()
 
 def lag_filnavn(type, antall, navn):
     return "resultater/"+str(type)+str(antall)+navn+ ".csv"
+
+def lag_filnavnmanu(navn):
+    return "resultatermanuelle/" + navn+ ".csv"
+
+def lag_filnavnsespill(navn, runde):
+    return "resultatersespill/" + navn+str(runde)+ ".csv"
 
 def lag_filnavnmrunde(type, antall, runde, navn):
     return "resultater/" + str(type) + str(runde)+"_"+ str(antall) +navn+ ".csv"
@@ -45,7 +53,7 @@ def test_tell_penger():
     spiller = Spiller(kortene, spilleske, TYPER)
     spiller.stokk()
     spiller.trekk_hand()
-    assert spiller.tell_penger() == 4
+    assert spiller.tell_penger(spiller.hand) == 4
 
 def test_bruk_kort():
     kortene = []
@@ -87,6 +95,15 @@ def test_finn_score():
     svar = spiller.finn_score()
     assert svar["Ko"] == 6
     assert svar["So"] == 4
+
+
+    kortene = [MyntSeierKort(1, 0), MyntSeierKort(2, 0), MyntSeierKort(2, 0), MyntSeierKort(2, 0)]
+    spiller.prioriteringer = {'Ko': [2, 4, 2], "So": [0, 8, 4]}
+    score = spiller.finn_scorel(kortene)
+    assert score["Ko"] == 4.5
+    assert score["So"] == 5
+    assert spiller.finn_andelu(MyntSeierKort(1, 0), kortene) == 0.25
+
 
 
 
@@ -182,30 +199,42 @@ def lag_spillere(spilleske):
         spillere[ab].navn = "s"+str(ab)
     return spillere
 
-def overste_general():
+def overste_general(manuelle):
     #spilleske = Spilleske(typer)
     spilleske = None
     spillere = lag_spillere(spilleske)
     mutasjon = kjor_cup(spillere)
     finalister = kjor_cup_utenm(mutasjon, spilleske)
-    SPILLROM.gjor_klar(finalister)
     vinner = spille_mothverandre(finalister)
     finalister.remove(vinner)
     print_ut(finalister, vinner)
     test_spiller(vinner)
+    test_spillerm_manuelle(vinner, manuelle)
 
 
-
+def test_spillerm_manuelle(vinner, manuelle):
+    telling = {vinner.navn: 0}
+    spillere = [vinner]
+    for manuelltnavn in manuelle:
+        navnet = selvalgt_spiller(manuelltnavn)
+        telling[navnet.navn] = 0
+        spillere.append(navnet)
+    logging.info("Begynner testing med manuelle")
+    for o in range(antall_tester):
+        vinneren = spille_mothverandre_medskriv(spillere, o)
+        telling[vinneren.navn] += 1
+        print_losning(vinneren, lag_filnavnmanu(vinneren.navn))
+    print("manuelle kommer nå!")
+    for spiller in spillere:
+        print(spiller.navn, "vant: ", telling[spiller.navn], "/", antall_tester)
 
 def spille_mothverandre(spillere):
     runde = 0
-    spilleske = Spilleske(TYPER)
-    for spilleren in spillere:
-        spilleren.spilleske = spilleske
-    while spilleske.skjekk("Pr") == True and runde<100:
-        logging.debug("Spilleske: " + str(spilleske.igjen))
+    spillrom = Spillrom(spillere)
+    while spillrom.spilleske.uferdig() == False:
+        logging.debug("Spilleske: " + str(spillrom.spilleske.igjen))
         for spiller in spillere:
-            if spilleske.skjekk("Pr") == True:
+            if spillrom.spilleske.uferdig():
                 spiller.utfor_runde()
         runde += 1
 
@@ -213,6 +242,30 @@ def spille_mothverandre(spillere):
     hoyest = None
     for spill in spillere:
         if spill.tell_poeng()>maks_score:
+            maks_score = spill.tell_poeng()
+            hoyest = spill
+    return hoyest
+
+def spille_mothverandre_medskriv(spillere,runden):
+    flere_filer = {}
+
+    for spiller in spillere:
+        flere_filer[spiller] = open(lag_filnavnsespill(spiller.navn, runden), "w")
+
+    spillrom = Spillrom(spillere)
+    while spillrom.spilleske.uferdig():
+        logging.debug("Spilleske: " + str(spillrom.spilleske.igjen))
+        for spiller in spillere:
+            if spillrom.spilleske.uferdig():
+                printen = []
+                for liste in spiller.utfor_runde_medskriv():
+                     printen.append(";".join(liste))
+                flere_filer[spiller].write(";".join(printen))
+                flere_filer[spiller].write("\n")
+    maks_score = 0
+    hoyest = None
+    for spill in spillere:
+        if spill.tell_poeng() > maks_score:
             maks_score = spill.tell_poeng()
             hoyest = spill
     return hoyest
@@ -239,7 +292,6 @@ def kjor_cup(spillere):
         for spiller in spillere:
             cup_kamp.append(spiller)
             if len(cup_kamp)==4:
-                SPILLROM.gjor_klar(cup_kamp)
                 vinner = spille_mothverandre(cup_kamp)
                 print_losning(vinner, lag_filnavnmrunde("mutasjon", antall, a, vinner.navn))
                 antall += 1
@@ -266,7 +318,6 @@ def kjor_cup_utenm(spillere, spilleske):
         for spiller in spillere:
             cup_kamp.append(spiller)
             if len(cup_kamp)==4:
-                SPILLROM.gjor_klar(cup_kamp)
                 vinneren = spille_mothverandre(cup_kamp)
                 nye_spillere.append(vinneren)
                 print_losning(vinneren, lag_filnavn("cup", antall, vinneren.navn))
@@ -278,14 +329,13 @@ def kjor_cup_utenm(spillere, spilleske):
 
 
 
-def finn_antall():
-    kortene = spiller.alle_kort()
-    antall = 0
-    for kortet in kortene:
-        if kortet == kort:
-            antall += 1
-    return antall / len(kortene                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        )
-
+#def finn_antall(spiller, kort):
+#   kortene = spiller.alle_kort()
+#   antall = 0
+#    for kortet in kortene:
+#        if kortet == kort:
+#            antall += 1
+#   return antall / len(kortene)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        )
 
 
 def print_losning(spiller, filnavn):
@@ -311,20 +361,51 @@ def test_mtilfeldig(spilleren):
     kampen = [spilleren]
     for telling in range(3):
         kampen.append(Spiller(lag_kort(), Spilleske(TYPER), TYPER))
-    SPILLROM.gjor_klar(kampen)
     vinneren = spille_mothverandre(kampen)
     if vinneren == spilleren:
         return 1
     else:
         return 0
 
-def les_inn(fil):
-    pass
+def les_inn(filnavn) -> dict:
+    filen =open(filnavn)
+    #print(_les_inn(filen, len(TYPER)), filnavn)
+    return _les_inn(filen, len(TYPER))
 
-def selvalgt_spiller(fil):
+def _les_inn(linjeSamling, antallTyper):
+    score = {}
+    for linje in linjeSamling:
+        assert linje.strip() != ""
+        biter = linje.split(";")
+        if biter[0] == "typer":
+            continue
+        score[biter[0]] = []
+        for b in range(antallTyper+1):
+            #print(b)
+            score[biter[0]].append(float(biter[b+1].replace(",",".")))
+    for kort in score:
+        assert len(score[kort]) == antallTyper+1
+    return score
+
+
+LES_INN_TEST = """typer;Grunntall;Smie;Kobber
+Sm;1;-1;0.001
+Ko;0.001;0.001;0.001""".split("\n")
+
+def test_les_inn(testData):
+    resultat = _les_inn(testData,2)
+    assert resultat=={'Sm': [1.0, -1.0, 0.001], 'Ko': [0.001, 0.001, 0.001]}
+
+test_les_inn(LES_INN_TEST)
+
+def selvalgt_spiller(filnavn):
     spilleske = None
     spiller = Spiller(lag_kort(), spilleske, TYPER)
-    spiller.prioriteringer = les_inn(fil)
+    spiller.prioriteringer = les_inn(filnavn)
+    navnet = filnavn.split("/")
+    spiller.navn = navnet[-1]
+    return spiller
+
 
 
 
@@ -344,10 +425,10 @@ def selvalgt_spiller(fil):
 #     spillere.append(Spiller(kortene, spilleske, typer))
 open("min_logg","w").close()
 logging.basicConfig(filename="min_logg",level=logging.DEBUG)
-#overste_general()
+overste_general(manuelle)
 
-test_finn_score()
-
+#test_finn_score()
+#selvalgt_spiller("manuelleSpillere/"+"manuell1.csv")
 kjoretid = time() - tid_for
 
 print("tid(sek): ", int(kjoretid))

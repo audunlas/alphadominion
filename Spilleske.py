@@ -24,6 +24,17 @@ class Spilleske:
         else:
             return False
 
+    def uferdig(self):
+        antall = 0
+        if self.skjekk("Pr") == False:
+            return False
+        for typen in self.typer:
+            if self.skjekk(typen) == False:
+                antall += 1
+        if antall >= 3:
+            return False
+        return True
+
 
     def kode_til_kort(self, kode):
         onske = kode
@@ -43,19 +54,20 @@ class Spilleske:
         #     return MyntSeierKort(0,1)
 
     def kort_til_kode(self, kort):
-        onske = kort
-        if onske == Smie():
+        if kort == Smie():
             return "Sm"
-        elif onske == MyntSeierKort(2, 0):
+        elif kort == MyntSeierKort(2, 0):
             return "So"
-        elif onske == MyntSeierKort(3, 0):
+        elif kort == MyntSeierKort(3, 0):
             return "Gu"
-        elif onske == MyntSeierKort(0, 6):
+        elif kort == MyntSeierKort(0, 6):
             return "Pr"
-        elif onske == MyntSeierKort(1, 0):
+        elif kort == MyntSeierKort(1, 0):
             return "Ko"
-        elif onske == Landsby():
+        elif kort == Landsby():
             return "La"
+        elif kort == MyntSeierKort(0,1):
+            return "He"
 
 
 def lag_kort():

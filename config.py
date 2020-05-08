@@ -1,3 +1,3 @@
 
-TYPER = ["Sm", "Gu", "Pr", "So", "Ko", "La"]
+TYPER = ["Sm", "Ko", "So", "Gu", "La", "Pr"]
 DEBUG_MODE = False
