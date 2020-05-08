@@ -11,7 +11,7 @@ tid_for=time()
 
 antall_tester = 10
 antall_runder = 10
-antall_spillere = 1024
+antall_spillere = 64
 manuelle_spillere = ["manuellmynter.csv", "manuell1.csv", "manuellsmiland.csv"]
 manuelle = ["manuelleSpillere/"+manuell for manuell in manuelle_spillere]
 
@@ -231,7 +231,7 @@ def test_spillerm_manuelle(vinner, manuelle):
 def spille_mothverandre(spillere):
     runde = 0
     spillrom = Spillrom(spillere)
-    while spillrom.spilleske.uferdig() == False:
+    while spillrom.spilleske.uferdig():
         logging.debug("Spilleske: " + str(spillrom.spilleske.igjen))
         for spiller in spillere:
             if spillrom.spilleske.uferdig():
