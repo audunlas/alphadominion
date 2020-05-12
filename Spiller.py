@@ -3,7 +3,7 @@ from random import shuffle, random, randint, choice
 from Kort import Kort, Smie, MyntSeierKort, Landsby, Befalingskort
 import logging
 from config import DEBUG_MODE
-from Spilleske import lag_kort
+from Spilleske import lag_kort, Spilleske
 
 class Spiller:
     def __init__(self, kortene, spilleske, typer):
@@ -36,10 +36,12 @@ class Spiller:
 
     def finn_forste_score(self):
         kortene = lag_kort()
+        self.spilleske = Spilleske(self.typer)
         return self.finn_scorel(kortene)
 
 
     def finn_siste_score(self):
+        self.spilleske.igjen["Pr"] = 1
         return self.finn_scorel(self.alle_kort())
 
     def klart_for_nytt_spill(self, kortene, spilleske):
@@ -112,7 +114,7 @@ class Spiller:
 
     def finn_andelu(self, kort, kortene):
         if kort == "Pr":
-            return self.spilleske.igjen["Pr"]
+            return 1/self.spilleske.igjen["Pr"]
         antall = kortene.count(kort)
         return antall / len(kortene)
 
@@ -133,7 +135,7 @@ class Spiller:
 
     def finn_andel(self, kort) -> float:
         if kort == "Pr":
-            return self.spilleske.igjen["Pr"]
+            return 10-self.spilleske.igjen["Pr"]
         antall = self.kort[kort]
         return antall/len(self.alle_kort())
 

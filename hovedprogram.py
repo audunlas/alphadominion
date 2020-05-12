@@ -10,8 +10,8 @@ from time import time
 tid_for=time()
 
 antall_tester = 10
-antall_runder = 10
-antall_spillere = 64
+antall_runder = 2
+antall_spillere = 16
 manuelle_spillere = ["manuellmynter.csv", "manuell1.csv", "manuellsmiland.csv"]
 manuelle = ["manuelleSpillere/"+manuell for manuell in manuelle_spillere]
 
@@ -342,8 +342,8 @@ def print_losning(spiller, filnavn):
     fil = open(filnavn, "w")
     spilleske = Spilleske(TYPER)
     antall = spiller.tell_korttyper()
-    scoreforste = spiller.finn_forste_score()
     scoresiste = spiller.finn_siste_score()
+    scoreforste = spiller.finn_forste_score()
 
     rad1 = ["typer", "Grunntall", "Smie", "Kobber", "Solv", "Gull", "Landsby", "Provins", "antall", "forste score", "siste score"]
     fil.write(";".join(rad1)+"\n")
