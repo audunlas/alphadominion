@@ -35,6 +35,8 @@ class Spiller:
         self.stokk()
 
     def finn_forste_score(self):
+        if self.navn == "manuellsmiland.csv":
+            a = "a"
         kortene = lag_kort()
         self.spilleske = Spilleske(self.typer)
         return self.finn_scorel(kortene)

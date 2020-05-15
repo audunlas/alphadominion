@@ -6,12 +6,20 @@ import logging
 from spillrom import Spillrom
 from config import TYPER
 from time import time
+import os
+import os.path
+
+if not os.path.abspath("resultatersespill"):
+    os.mkdir("resultatersespill")
+if not os.path.abspath("resultatermanuelle"):
+    os.mkdir("resultatermanuelle")
+
 
 tid_for=time()
 
 antall_tester = 10
 antall_runder = 2
-antall_spillere = 16
+antall_spillere = 4
 manuelle_spillere = ["manuellmynter.csv", "manuell1.csv", "manuellsmiland.csv"]
 manuelle = ["manuelleSpillere/"+manuell for manuell in manuelle_spillere]
 
@@ -271,7 +279,7 @@ def spille_mothverandre_medskriv(spillere,runden):
     return hoyest
 
 def print_ut(finalister, vinner):
-    print(len(finalister))
+    #print(len(finalister))
     for ab in range(len(finalister)):
         print_losning(finalister[ab], lag_filnavn("finalist", ab, finalister[ab].navn))
     print("vinneren:")
