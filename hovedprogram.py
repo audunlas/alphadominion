@@ -1,4 +1,4 @@
-from Spiller import Spiller, _sorter_onskeliste, fjern_tomme
+from Spiller import Spiller, _sorter_onskeliste, fjern_tomme, cross_over
 from Kort import MyntSeierKort, Smie, Landsby
 from Spilleske import Spilleske, lag_kort
 from pickle import dump, load
@@ -6,6 +6,7 @@ import logging
 from spillrom import Spillrom
 from config import TYPER
 from time import time
+from random import choice
 import os
 import os.path
 
@@ -36,7 +37,7 @@ def lag_filnavnsespill(navn, runde):
     return "resultatersespill/" + navn+str(runde)+ ".csv"
 
 def lag_filnavnmrunde(type, antall, runde, navn):
-    return "resultater/" + str(type) + str(runde)+"_"+ str(antall) +navn+ ".csv"
+    return "resultater/" + str(type) + str(runde)+"_"+ str(antall) +str(navn)+ ".csv"
 
 
 def test_trekk_hand():
@@ -50,6 +51,16 @@ def test_trekk_hand():
     spiller.stokk()
     spiller.trekk_hand()
     assert len(spiller.hand)==5
+
+def test_cross_over():
+    typer = ["a", "b"]
+    spiller1 = Spiller(lag_kort(), Spilleske(typer), typer)
+    spiller2 = Spiller(lag_kort(), Spilleske(typer), typer)
+    spiller1.prioriteringer = {"a": [1,2,3], "b": [7,8,9]}
+    spiller2.prioriteringer = {"a": [4,5,6], "b": [10, 11, 12]}
+    ny_spiller = cross_over([spiller1, spiller2], typer)
+    print(ny_spiller.prioriteringer)
+
 
 def test_tell_penger():
     kortene = []
@@ -290,11 +301,11 @@ def print_ut(finalister, vinner):
 def kjor_cup(spillere):
     logging.info("antall spillere"+str(len(spillere)))
     cup_kamp = []
-    nye_spillere = spillere
+    nyeste_spillere = spillere
     for a in range(antall_runder):
         antall = 1
         logging.info("starter runde")
-        spillere = nye_spillere
+        spillere = nyeste_spillere
         nye_spillere = []
         for spiller in spillere:
             cup_kamp.append(spiller)
@@ -302,8 +313,22 @@ def kjor_cup(spillere):
                 vinner = spille_mothverandre(cup_kamp)
                 print_losning(vinner, lag_filnavnmrunde("mutasjon", antall, a, vinner.navn))
                 antall += 1
-                nye_spillere += vinner.mutasjon()
+                nye_spillere.append(vinner)
                 cup_kamp = []
+        nyeste_spillere = []
+        for ab in range(len(nye_spillere)*4):
+            muligheter = [1,2,2,3]
+            valg = choice(muligheter)
+            print(valg)
+            if valg == 1:
+                nyeste_spillere.append(choice(nye_spillere))
+            elif valg == 2:
+                nyeste_spillere += choice(nye_spillere).mutasjon()
+            else:
+                nyeste_spillere.append(cross_over([choice(nye_spillere), choice(nye_spillere)],TYPER))
+
+
+
 
     return nye_spillere
 
@@ -433,6 +458,7 @@ def selvalgt_spiller(filnavn):
 open("min_logg","w").close()
 logging.basicConfig(filename="min_logg",level=0)
 overste_general(manuelle)
+#test_cross_over()
 
 #test_finn_score()
 #selvalgt_spiller("manuelleSpillere/"+"manuell1.csv")

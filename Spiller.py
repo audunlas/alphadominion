@@ -2,7 +2,7 @@ from typing import List, Dict
 from random import shuffle, random, randint, choice
 from Kort import Kort, Smie, MyntSeierKort, Landsby, Befalingskort
 import logging
-from config import DEBUG_MODE
+from config import DEBUG_MODE, TYPER
 from Spilleske import lag_kort, Spilleske
 
 class Spiller:
@@ -62,19 +62,15 @@ class Spiller:
 
 
     def lage_barn(self):
-        nye_barn = [self]
-        for telling in range(3):
+        nye_barn = []
+        for telling in range(1):
             kortene = []
             for i in range(7):
                 kortene.append(MyntSeierKort(1, 0))
             for i in range(3):
                 kortene.append(MyntSeierKort(0, 1))
             nye_barn.append(Spiller(kortene, self.spilleske, self.typer))
-        for ab in range(len(nye_barn)):
-            if ab == 0:
-                nye_barn[ab].navn = self.navn
-            else:
-                nye_barn[ab].navn = self.navn + str(ab)
+            nye_barn[0].navn = self.navn + str(1)
         return nye_barn
 
     def mutasjon(self):
@@ -398,6 +394,23 @@ def skjekk():
         if liste[antall] == "b":
             liste.pop(antall)
     print(liste)
+
+def cross_over(spillere, typer):
+    assert len(spillere) == 2
+    ny_spiller = Spiller(lag_kort(), Spilleske(typer), typer)
+    for type in typer:
+        for a in range((len(typer)+1)):
+            tallet = randint(1,3)
+            if tallet == 1:
+                ny_spiller.prioriteringer[type][a] = spillere[0].prioriteringer[type][a]
+            elif tallet == 2:
+                ny_spiller.prioriteringer[type][a] = spillere[1].prioriteringer[type][a]
+            else:
+                ny_spiller.prioriteringer[type][a] = (spillere[0].prioriteringer[type][a]+spillere[1].prioriteringer[type][a])/2
+    ny_spiller.navn = spillere[0].navn+spillere[1].navn
+    return ny_spiller
+
+
 
 
 
